@@ -1,0 +1,12 @@
+
+ @font-face { font-style : normal; src: url("assets/fonts/soraregular400.ttf"); font-family : "Sora"; font-weight : 400;  }
+ @font-face { font-style : bold; src: url("assets/fonts/opensansopensansromanlight300.ttf"); font-family : "Open Sans"; font-weight : 300;  }
+ @font-face { font-style : bold; src: url("assets/fonts/montserratmedium500.ttf"); font-family : "Montserrat"; font-weight : 500;  }
+ @font-face { font-style : bold; src: url("assets/fonts/sorabold700.ttf"); font-family : "Sora"; font-weight : 700;  }
+ @font-face { font-style : bold; src: url("assets/fonts/ubuntumedium500.ttf"); font-family : "Ubuntu"; font-weight : 500;  }
+ @font-face { font-style : normal; src: url("assets/fonts/interregular400.ttf"); font-family : "Inter"; font-weight : 400;  }
+ @font-face { font-style : bold; src: url("assets/fonts/sorasemibold600.ttf"); font-family : "Sora"; font-weight : 600;  }
+ @font-face { font-style : bold; src: url("assets/fonts/ubuntubold700.ttf"); font-family : "Ubuntu"; font-weight : 700;  }
+ @font-face { font-style : bold; src: url("assets/fonts/worksanssemibold600.ttf"); font-family : "Work Sans"; font-weight : 600;  }
+ @font-face { font-style : bold; src: url("assets/fonts/soralight300.ttf"); font-family : "Sora"; font-weight : 300;  }
+ @font-face { font-style : normal; src: url("assets/fonts/poppinsregular400.ttf"); font-family : "Poppins"; font-weight : 400;  }

@@ -1,0 +1,122 @@
+
+    @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #214674;
+}
+/* Override default focus colors for tailwindcss-forms https://github.com/tailwindlabs/tailwindcss-forms */
+[type='text']:focus,
+[type='email']:focus,
+[type='url']:focus,
+[type='password']:focus,
+[type='number']:focus,
+[type='date']:focus,
+[type='search']:focus,
+[type='checkbox']:focus,
+[type='radio']:focus,
+[multiple]:focus,
+textarea:focus,
+select:focus {
+  --tw-ring-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.react-datepicker-wrapper .react-datepicker__input-container input{
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  padding: 0px;
+}
+.react-datepicker__day.react-datepicker__day--keyboard-selected {
+  background: none;
+  color: black;
+}
+input:focus, textarea:focus{
+  outline:none !important;
+  outline-offset: 0 !important;
+  --tw-ring-offset-width:none !important;
+}
+
+li:focus-visible{
+  outline: none;
+}
+
+li:hover{
+  cursor: pointer;
+}
+
+.tab-panel--selected { animation-name: tabPanel; animation-duration: 300ms; animation-timing-function: linear; }
+@keyframes tabPanel { from { opacity: 0; } to { opacity: 1; } }
+/* Input style */
+.input-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container label {
+  position: absolute;
+  transform-origin: top left;
+  transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+
+.input-container input {
+  transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+
+.Category{
+ @apply cursor-pointer font-normal not-italic xl:text-[12px] 2xl:text-[14px] 3xl:text-[16px] lg:text-[9px] text-white_A700_7f w-[auto]; 
+}
+.EasyApplying{
+ @apply font-semibold lg:text-[17px] xl:text-[21px] 2xl:text-[24px] 3xl:text-[28px] text-bluegray_900 w-[auto]; 
+}
+.Theprocessof{
+ @apply font-light lg:leading-[18px] xl:leading-[23px] 2xl:leading-[26px] 3xl:leading-[31px] lg:mt-[11px] xl:mt-[14px] 2xl:mt-[16px] 3xl:mt-[19px] xl:text-[12px] 2xl:text-[14px] 3xl:text-[16px] lg:text-[9px] text-bluegray_901 text-center w-[100%]; 
+}
+.Lookingforaj{
+ @apply font-semibold lg:text-[34px] xl:text-[42px] 2xl:text-[48px] 3xl:text-[57px] text-bluegray_900 tracking-ls1 w-[auto]; 
+}
+.Group54{
+ @apply absolute font-normal not-italic p-[0] xl:text-[12px] 2xl:text-[14px] 3xl:text-[16px] lg:text-[9px] text-bluegray_900 w-[100%]; 
+}
+.Name{
+ @apply font-semibold lg:text-[12px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] text-bluegray_901 w-[auto]; 
+}
+.Frame36{
+ @apply font-normal not-italic xl:text-[12px] 2xl:text-[14px] 3xl:text-[16px] lg:text-[9px] text-bluegray_400 w-[auto]; 
+}
+.MapPin{
+ @apply lg:h-[12px] xl:h-[15px] 2xl:h-[17px] 3xl:h-[20px] lg:w-[11px] xl:w-[14px] 2xl:w-[16px] 3xl:w-[19px]; 
+}
+.label1{
+ @apply font-normal lg:ml-[5px] xl:ml-[7px] 2xl:ml-[8px] 3xl:ml-[9px] not-italic xl:text-[12px] 2xl:text-[14px] 3xl:text-[16px] lg:text-[9px] text-bluegray_400 w-[auto]; 
+}
+.Fee{
+ @apply font-medium font-ubuntu lg:text-[15px] xl:text-[19px] 2xl:text-[22px] 3xl:text-[26px] text-gray_301 w-[auto]; 
+}
+.Group82{
+ @apply font-semibold lg:ml-[14px] xl:ml-[17px] 2xl:ml-[20px] 3xl:ml-[24px] lg:mt-[14px] xl:mt-[17px] 2xl:mt-[20px] 3xl:mt-[24px] lg:text-[17px] xl:text-[21px] 2xl:text-[24px] 3xl:text-[28px] text-bluegray_901 w-[auto]; 
+}
+.Photo1{
+ @apply lg:h-[171px] xl:h-[214px] 2xl:h-[241px] 3xl:h-[289px] w-[100%]; 
+}
+.Title2{
+ @apply font-normal lg:mt-[22px] xl:mt-[28px] 2xl:mt-[32px] 3xl:mt-[38px] not-italic lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-indigo_800 w-[auto]; 
+}
+.Productivethin{
+ @apply font-normal lg:leading-[21px] xl:leading-[26px] 2xl:leading-[30px] 3xl:leading-[36px] lg:mt-[11px] xl:mt-[14px] 2xl:mt-[16px] 3xl:mt-[19px] not-italic lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] text-bluegray_901 w-[100%]; 
+}
+.Menu1{
+ @apply font-semibold rotate-[180deg] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-white_A700 w-[auto]; 
+}
+.Frame49{
+ @apply font-normal not-italic rotate-[180deg] xl:text-[12px] 2xl:text-[14px] 3xl:text-[16px] lg:text-[9px] text-white_A700_b2 w-[auto]; 
+}
+.Shop{
+ @apply font-normal lg:mt-[11px] xl:mt-[14px] 2xl:mt-[16px] 3xl:mt-[19px] not-italic rotate-[180deg] xl:text-[12px] 2xl:text-[14px] 3xl:text-[16px] lg:text-[9px] text-white_A700_b2 w-[auto]; 
+}
+.Frame54{
+ @apply font-light xl:text-[12px] 2xl:text-[14px] 3xl:text-[16px] lg:text-[9px] text-gray_301 w-[auto]; 
+}
