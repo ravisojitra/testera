@@ -12,9 +12,7 @@ const Home = () => {
       </p>
       <ul>
         <li>
-          <Link to="/jobseekerlandingpagedesktop">
-            JobseekerLandingPageDesktop
-          </Link>
+          <Link to="/">JobseekerLandingPageDesktop</Link>
         </li>
       </ul>
     </div>

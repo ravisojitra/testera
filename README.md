@@ -1,26 +1,40 @@
-Missing images: 1
-Please define `REACT_APP_GOOGLE_CLIENT_ID` in `.env`
-
 # Design System
 
 All the design has been generated with [tailwindcss](https://tailwindcss.com/).
 Find all the theme related configuration inside tailwind.config.js
 
+# Design System
+
+All the designs have been generated with [Tailwind CSS](https://tailwindcss.com/).
+Find all the theme related configurations inside tailwind.config.js
+
+# Running the storybook
+
+We have detected common components and have generated possible variants of it. To check the documentation of generated common components by integrating storybook, please follow the below steps:
+
+## Install and Initializes
+
+     npx storybook init
+
+## Run the Storybook
+
+      npm run storybook
+
 <div>
   <h1 align="center">Getting Started with React Figma Web 🚀 </h1>
   <strong>
-    Generated with ❤️ from Dhiwise
+    Generated with ❤️ from DhiWise
   </strong>
   <p>
     This is the documentation of React Figma Web.
-    It holds all the info you need to get started with
+    It contains all the information you need to get started with
     and make changes to your App
   </p>
 </div>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is integrated with a [Tailwind CSS](https://tailwindcss.com/) setup, a new utility-first css framework, in an CRA environment. You can read more over on [Getting Started with Tailwind](https://tailwindcss.com/docs/installation).
+This project is integrated with a [Tailwind CSS](https://tailwindcss.com/) setup, a new utility-first CSS framework, in an CRA environment. You can read more over on [Getting Started with Tailwind](https://tailwindcss.com/docs/installation).
 
 ## Table of Contents
 
@@ -41,7 +55,7 @@ This project is integrated with a [Tailwind CSS](https://tailwindcss.com/) setup
 - [How to Update to New Versions?](#how-to-update-to-new-versions)
 - [What’s Included?](#whats-included)
 
-## System Requirements
+## System Requirement
 
 - [git](https://git-scm.com/) - v2.13 or greater
 - [NodeJS](https://nodejs.org/en/) - `12 || 14 `
@@ -49,7 +63,7 @@ This project is integrated with a [Tailwind CSS](https://tailwindcss.com/) setup
 
 ## Setup
 
-Setup you project by running the following commands.
+Setup your project by running the following commands:
 
 ## Install Dependencies
 
@@ -72,7 +86,6 @@ After creation, your project should look like this:
 
 ```
 .
-├── craco.config.js
 ├── package.json
 ├── package-lock.json
 ├── postcss.config.js
@@ -147,9 +160,9 @@ Your app is ready to be deployed!
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However, we understand that DhiWise wouldn’t be useful if you can’t customize it when you are ready for it.
 
 ## Syntax Highlighting in the Editor
 
@@ -157,11 +170,11 @@ To configure the syntax highlighting in your favorite text editor, head to the [
 
 ## Displaying Lint Output in the Editor
 
-> Note: this feature is available with `react-scripts@0.2.0` and higher.<br>
-> It also only works with npm 3 or higher.
+> Note: This feature is available with `react-scripts@0.2.0` and higher.<br>
+> It only works with npm 3 or higher.
 > Some editors, including Sublime Text, Atom, and Visual Studio Code, provide plugins for ESLint.
 
-They are not required for linting. You should see the linter output right in your terminal as well as the browser console. However, if you prefer the lint results to appear right in your editor, there are some extra steps you can do.
+They are not required for linting. You should see the linter output right in your terminal as well as the browser console. However, if you prefer the lint results to appear right in your editor, there are some extra steps you can take.
 
 You would need to install an ESLint plugin for your editor first. Then, add a file called `.eslintrc` to the project root:
 
@@ -181,7 +194,7 @@ If you want to enforce a coding style for your project, consider using [Prettier
 
 You can find the source HTML file in the `public` folder of the generated project. You may edit the `<title>` tag in it to change the title from “React App” to anything else.
 
-Note that normally you wouldn’t edit files in the `public` folder very often. For example, adding a stylesheet is done without touching the HTML.
+Note, that normally you wouldn’t edit files in the `public` folder very often. For example, adding a stylesheet is done without touching the HTML.
 
 If you need to dynamically update the page title based on the content, you can use the browser [`document.title`](https://developer.mozilla.org/en-US/docs/Web/API/Document/title) API. For more complex scenarios when you want to change the title from React components, you can use [React Helmet](https://github.com/nfl/react-helmet), a third party library.
 

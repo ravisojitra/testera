@@ -1,7 +1,11 @@
 :root { 
 --white_A700_7f:#ffffff7f; 
---white_A700_4c:#ffffff4c; 
 --white_A700_b2:#ffffffb2; 
+--white_A700_cc:#ffffffcc; 
+--white_A700_33:#ffffff33; 
+--white_A700_99:#ffffff99; 
+--black_900:#000000; 
+--white_A700_4c:#ffffff4c; 
 --gray_301:#e6e6e6; 
 --amber_300:#ffc74b; 
 --gray_101:#f7f7f7; 
@@ -11,10 +15,7 @@
 --gray_100:#f3f7fc; 
 --bluegray_900:#222247; 
 --gray_300_7f:#dddddd7f; 
---white_A700_cc:#ffffffcc; 
 --bluegray_800:#252f57; 
---white_A700_33:#ffffff33; 
---white_A700_99:#ffffff99; 
 --indigo_200:#83abdb; 
 --bluegray_400:#888888; 
 --indigo_801:#1f4878; 

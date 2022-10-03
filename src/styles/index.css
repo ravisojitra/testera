@@ -11,9 +11,6 @@ body {
 .dhiwise-navigation {
   min-height: 100%;
 }
-.dhiwise-code > div {
-  min-height: 100vh;
-}
 .common-row {
   flex-direction: row;
   display: flex;
@@ -73,8 +70,14 @@ body {
 .dhiwise-navigation a {
   color: #132cdc;
 }
+.common-pointer {
+  cursor: pointer;
+}
 table {
   border-spacing: 0;
+}
+.common-select {
+  z-index: 10000;
 }
 .react-datepicker-popper {
   z-index: 100000 !important;
@@ -105,4 +108,16 @@ input:focus{
 
 .slider-indicator:last-child {
 margin-right: 0;
+}
+
+.rc-drawer-content-wrapper{
+  width: 100% !important;
+}
+.rc-drawer-right .rc-drawer-content-wrapper{
+  display: flex;
+  justify-content: flex-end;
+}
+.rc-drawer-left .rc-drawer-content-wrapper{
+  display: flex;
+  justify-content: flex-start;
 }

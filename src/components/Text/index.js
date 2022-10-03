@@ -1,9 +1,15 @@
 import React from "react";
-
-export const Text = ({ children, className, ...restProps }) => {
+const variantClasses = {};
+const Text = ({ children, className, variant, as, ...restProps }) => {
+  const Component = as || "span";
   return (
-    <div className={className} {...restProps}>
+    <Component
+      className={`${className} ${variantClasses[variant]}`}
+      {...restProps}
+    >
       {children}
-    </div>
+    </Component>
   );
 };
+
+export { Text };

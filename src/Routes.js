@@ -8,12 +8,9 @@ const ProjectRoutes = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<JobseekerLandingPageDesktop />} />
         <Route path="*" element={<NotFound />} />
-        <Route
-          path="/jobseekerlandingpagedesktop"
-          element={<JobseekerLandingPageDesktop />}
-        />
+        <Route path="/dhiwise-dashboard" element={<Home />} />
       </Routes>
     </Router>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Image = ({
+export const Img = ({
   className,
   src = "defaultNoData.png",
   alt = "testImg",
@@ -9,7 +9,7 @@ export const Image = ({
   return (
     <img
       className={`${className} common-image`}
-      src={require(`assets/images/${src}`)}
+      src={src}
       alt={alt}
       {...restProps}
       loading={"lazy"}
