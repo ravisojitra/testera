@@ -6,7 +6,7 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
-    screens: { lg: "1025px", xl: "1281px", "2xl": "1441px", "3xl": "1729px" },
+    screens: { lg: "1024px", xl: "1281px", "2xl": "1441px", "3xl": "1729px" },
     extend: {
       colors: {
         white_A700_7f: "#ffffff7f",
@@ -44,7 +44,6 @@ module.exports = {
         radius100: "100px",
       },
       borderWidth: { bw05: "0.5px" },
-      letterSpacing: { ls1: "1px", ls2: "2px", ls3: "3px", ls4: "4px" },
       fontFamily: {
         ubuntu: "Ubuntu",
         sora: "Sora",
@@ -54,6 +53,7 @@ module.exports = {
         inter: "Inter",
         poppins: "Poppins",
       },
+      letterSpacing: { ls1: "1px", ls2: "2px", ls3: "3px", ls4: "4px" },
       boxShadow: { bs: "10px 10px  20px 0px #19355919" },
       backgroundImage: { gradient: "radial-gradient(#1f4878,#252f57,#222247)" },
     },
